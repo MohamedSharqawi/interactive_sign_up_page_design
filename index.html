@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-up Form With Success Message</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    </head>
+    <body>
+        <main>
+            <section class="txt">
+                <h1>Stay updated!</h1>
+                <p>Join 60,000+ product managers recieving monthly updates on:</p>
+                <div class="list">
+                    <div><img src="images/icon-list.svg" alt="List Icon"><p class="list-p">Product discovery and building what matters</p></div>
+                    <div><img src="images/icon-list.svg" alt="List Icon"><p class="list-p">Measuring to ensure updates are a success</p></div>
+                    <div><img src="images/icon-list.svg" alt="List Icon"><p class="list-p">And much more!</p></div>
+                </div>
+                <form>
+                    <div class="mail-txt">
+                        <label for="mail">Email address</label>
+                        <p class="error">Valid email required</p>
+                    </div>
+                    <input type="text" name="Email" id="mail" placeholder="email@company.com">
+                    <input type="submit" value="Subscribe to monthly newsletter">
+                </form>
+            </section>
+            <section class="img"></section>
+        </main>
+        <div class="full-screen">
+            <div class="success-msg">
+                <img src="images/icon-success.svg" alt="Success Image">
+                <h1>Thanks for subscribing!</h1>
+                <p class="confirm">A confirmation email has been sent to <span class="mail"></span>. Please open it and click the button inside to confirm your subscription.</p>
+                <a href="#">Dismiss message</a>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
