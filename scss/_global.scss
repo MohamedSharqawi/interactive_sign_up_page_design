@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.loading {
+    cursor: progress !important;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+input {
+    font-family: "Roboto";
+    background-color: transparent;
+    display: block;
+    outline: none;
+    
+    &::placeholder {
+        color: inherit;
+    }
+}
+
+button {
+    font-family: "Roboto";
+    display: block;
+    border: none;
+    outline: none;
+}
+
+.hidden {
+    display: none !important;
+}
